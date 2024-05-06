@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+  background-color: #62d3f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 15px;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+
+
+.content {
+    flex-direction: column;
+}
+.content-text{
+  align-items: center;
+  text-align: center;
+  }
+.content-text h1{
+  font-size: 50px;
+  margin-top: -10px;
+  color: white;
+}
+.content-text p{
+  font-size: 15px;
+  width: 50%;
+ margin-left: 350px;
+  color: whitesmoke;
+}
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 70px 0 630px;
+}
+button{
+  padding: 14px 10px;
+  border-radius: 10%;
+  background-color: white;
+}
+button:hover{
+   box-shadow: 10px 10px 8px #888888;
+ background-color: #888888;
+
+}
+
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin-left: 50px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px rgb(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+
+#home{
+    margin-top: 150px;
+}
+
+#about{
+    margin-top: 400px;
+}
+
+#skil{
+    margin-top: 500px;
+}
+.skill-text{
+    display: flex;
+    justify-content: center;
+}
+.content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
